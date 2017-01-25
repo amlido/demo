@@ -1,4 +1,4 @@
-import unittest:
+import unittest
 class demo(unittest.TestCase):
     def test(self):
         self.assertEqual(3*4,15)
