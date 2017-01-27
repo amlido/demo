@@ -17,4 +17,9 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script: pytest
+git add .travis.yml
+commit -m "abc"
+git push origin master
+
+
 python test1.py
