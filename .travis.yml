@@ -5,4 +5,4 @@ install:
            - pip install --upgrade pip
 script:
            - pip freeze
-           - python tests.py 
+           - python test.py 
